@@ -1,0 +1,54 @@
+# WordPress
+wp-config.php
+.htaccess
+
+# Plugin specific
+vendor/
+node_modules/
+composer.json
+composer.lock
+package.json
+package-lock.json
+
+# Build files
+admin/build/bundle.js
+admin/build/bundle.css
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Testing
+tests/coverage/
+.phpunit.result.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+
+# Language files (build)
+languages/*.po
+languages/*.pot
+
